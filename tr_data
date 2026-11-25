@@ -1,0 +1,28 @@
+# 词汇表
+VOCAB = ["A", "B", "C", "D", "E", "M", "N", "Q", "P", "Z", "X", "Y", "girl", "boy", "strong", "smart", "is", "can"]
+
+# 训练语料：包含桥接语料，帮助模型学会泛化推理
+TRAINING_DATA = [
+    (["A","is"], "boy"),
+    (["B","is"], "boy"),
+    (["C","is"], "boy"),
+    (["D","is"], "boy"),
+    (["E","is"], "boy"),
+    (["A","can"], "strong"),
+    (["B","can"], "strong"),
+    (["C","can"], "strong"),
+    (["D","can"], "strong"),
+    (["E","can"], "strong"),
+    (["M","is"], "girl"),
+    (["N","is"], "girl"),
+    (["Q","is"], "girl"),
+    (["P","is"], "girl"),
+    (["Z","is"], "girl"),
+    (["M","can"], "smart"),
+    (["N","can"], "smart"),
+    (["Q","can"], "smart"),
+    (["P","can"], "smart"),
+    (["Z","can"], "smart"),
+    (["X","is"], "boy"),
+    (["Y","is"], "girl"),
+]
